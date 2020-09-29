@@ -1,0 +1,65 @@
+#Jackson Grether 
+
+'''
+Purpose: To create a Haunted House video game
+Preconditions: The user inputs as integers, 1 or 2 or letters y or n 
+Postconditons: Prompts are displayed, results of actions are displayed, outcome of game is reported
+''' 
+def main():
+    money = False 
+    vase = False 
+    pillow = False
+    lived = True
+    print("Welcome to the ol Haunted House")
+    print("Your are standing in the front room of the old broken-down house.")
+    print("There is a pillow")
+    choice = input("Do you pick up the pillow? y or n > ") 
+    if choice == y 
+    pillow = True 
+    print("You have a pillow") 
+    else: 
+        print("You ignore the pillow") 
+    print("You see two doors, one to the South, one to the East.") 
+    choice1 = input("Do you go through\n1. The South door \n2. The East door \n > ") 
+    if choice1 == '1': 
+        print("You are in the Kitchen. There is a refrigerator and some cabinits here.")
+        choice2 = input("Do you open\n1. The fridge\n2 the Silverware drawer\n>")
+    if choice2 == '1': 
+        lived = False 
+        print("A gohst jumps out and scares you to death.") 
+    else: 
+        money = True 
+        print("In the drawer you find $100,000,000") 
+    else: 
+        print("You are in the caot closet. There is a suitcase here") 
+        choice3 = input("Do you\n1. Open the suitcase\n2. Pick up the suitcase\n >")
+        if choice3 == '1': 
+            if pillow == True:
+                vase = True 
+                print("You have a vase!") 
+            else: 
+                print("You find a Ming Vase and drop it! It shatters into a million pieces!") 
+                else: 
+                    lived = False
+                    print("Suitcase is too heavy, and you die from the strain!") 
+        print("\nGame Over!\n")
+        if lived == True:
+            print("You got out alive!")
+            if vase == True:
+                print("You have a vase")
+            if pillow == True: 
+                print("You have a pillow") 
+            if money == True:
+                print(" You have $100,000,000")
+            
+        
+        
+    
+
+    
+    
+    
+        
+    
+    
+    
